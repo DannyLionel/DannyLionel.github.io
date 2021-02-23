@@ -9,28 +9,28 @@ const illustration = {
 };
 
 const greeting = {
-  username: "David Rakosi",
-  title: "Hi all, I'm David",
+  username: "Danny Lionel",
+  title: "Hi all, I'm Danny",
   subTitle: emoji(
     "A passionate Full Stack Software Developer 🚀 having an experience of designing and building Web and Mobile applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
+    "https://drive.google.com/file/d/1hQO19AC9W1sFTZQ7g17eNUbDrEybTjl-/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/drakosi99",
-  // linkedin: "https://www.linkedin.com/in/",
-  gmail: "contact@davidrakosi.com",
+  github: "https://github.com/DannyLionel",
+  linkedin: "https://www.linkedin.com/in/dannylionel/",
+  gmail: "dhanushga.lionel@ontariotechu.net",
   // gitlab: "https://gitlab.com/",
   // facebook: "https://www.facebook.com/",
-  medium: "https://medium.com/@davidrakosi",
-  stackoverflow: "https://stackoverflow.com/users/13263979/drakosi",
-  instagram: 'https://www.instagram.com/davidrakosi/',
-  twitter: 'https://twitter.com/davidrakosi_',
+  //medium: "https://medium.com/@davidrakosi",
+  //stackoverflow: "https://stackoverflow.com/users/13263979/drakosi",
+  instagram: 'https://www.instagram.com/danny.lionel1/',
+  twitter: 'https://twitter.com/Dhanush134',
   display: true // Set true to display this section, defaults to false
 };
 
@@ -103,24 +103,24 @@ const educationInfo = {
   display: false, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Ontario Tech University",
+      logo: require("./assets/images/otulogo.png"),
+      subHeader: "Bachelor of Engineering in Software Engineering",
+      duration: "September 2016 - April 2021",
+      desc: "Took courses about Web & Mobile App Development, Software Security, Distributed Systems, Machine Learning and Artifical Intelligence",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       ]
     },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc:
-        "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
-    }
+    //{
+     // schoolName: "Stanford University",
+     // logo: require("./assets/images/stanfordLogo.png"),
+    //  subHeader: "Bachelor of Science in Computer Science",
+     // duration: "September 2013 - April 2017",
+     // desc:
+      //  "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+     // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+    //}
   ]
 };
 
@@ -130,16 +130,24 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend / Design", //Insert stack or technology you have experience in
+      Stack: "HTML/CSS", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
+      Stack: "JavaScript",
       progressPercentage: "70%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "90%"
+      Stack: "Python",
+      progressPercentage: "75%"
+    },
+    {
+      Stack: "Java",
+      progressPercentage: "80%"
+    },
+    {
+      Stack: "SQL",
+      progressPercentage: "70%"
     }
   ],
   displayCodersrank: true // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -148,7 +156,7 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: false, //Set it to true to show workExperiences Section
   experience: [
     {
       role: "Software Engineer",
@@ -188,7 +196,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
-  githubUserName: "drakosi99", // Change to your github username to view your profile in Contact Section.
+  githubUserName: "dannylionel", // Change to your github username to view your profile in Contact Section.
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
   display: false // Set false to hide this section, defaults to true
 };
@@ -197,33 +205,88 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "SOME Projects that I'm proud of...",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/capstone.jpg"),
+      projectName: "Capstone Project",
+      projectDesc: "Advancing reminiscence therapy for Dementia patients through an intuitive web app.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "fa"
+          url: "https://sites.google.com/view/artcapstoneproject/home?authuser=1"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/react1.png"),
+      projectName: "React Phone Store",
+      projectDesc: "E-commerce react website for phones",
       footerLink: [
         {
           name: "Visit Website",
-          url: ""
+          url: "https://phonebookstore.netlify.app/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/GPUStore.jpg"),
+      projectName: "GPU Store",
+      projectDesc: "E-commerce website to buy gaming equipment",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://gpuandphone.netlify.app/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/mytrack3.jpg"),
+      projectName: "MyTrack",
+      projectDesc: "Vehicle Tracking Software for Android application",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://sites.google.com/view/mytrackproject/home?authuser=1"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/car4u2.jpg"),
+      projectName: "Car4U",
+      projectDesc: "Car Rental App for Android",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://sites.google.com/view/car4uproject/home?authuser=1"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/comfyhouse.jfif"),
+      projectName: "Furniture Store",
+      projectDesc: "Online furniture store",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://dl-comfyhouse.netlify.app/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/stan.jfif"),
+      projectName: "Stan Lee Comic",
+      projectDesc: "Stan Lee Tribute page in Comic form",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://stanleecomic.netlify.app/"
         }
       ]
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -310,7 +373,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -349,15 +412,15 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "(323) 768 0674",
-  email_address: "contact@davidrakosi.com"
+  number: "(647) 913 8011",
+  email_address: "dhanushga.lionel@ontariotechu.net"
 };
 
 // Twitter Section
 
 const twitterDetails = {
-  userName: "davidrakosi_", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  userName: "Dhanush134", //Replace "twitter" with your twitter username without @
+  display: false // Set true to display this section, defaults to false
 };
 
 export {
